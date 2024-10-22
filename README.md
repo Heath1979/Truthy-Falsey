@@ -51,15 +51,17 @@ Truthy/Falsey is a quiz website aimed at young children in and aligned with educ
 
 ### **Primary Goal**  
   
-Describe primary objectives of site
+Truthy/Falsey is an interactive quiz aimed at young children to help test and enhance knowledge gained through the organisation curriculum. The site will have a landing page that explains what the site is about and how the game will work. A navigation menu will be placed at the top of the site to help navigate to the different quiz sections for adult UI. Links hidden in animals will available on the main page for children to access quizzes.
 
 ### **Visitor Goals** 
 
-What goals is the vistor to this iste looking for
+Visitors will be able to understand the layout of the site and what it is trying to achieve in terms of accessing the quiz and how to play. It will be fun and engaging and inspire people to make multiple returns to access new and updated quizzes.
 
 ### **First Time Visitor**
 
-  - list of goals for first time visitor
+  - A user can understand what the website is about and how to access the different pages through the use of the navigation bar.
+  - A user can have a fun and interactive experience by accessing the quiz pages.
+
 
 
 ### **Returning Visitor**  
