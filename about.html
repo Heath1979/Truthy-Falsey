@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!--Header-->
     <header>
-        <button href="#" class="active" id="home">Home</button>
+        <button href="index.html" class="active" id="home">Home</button>
         <nav class="dropdown">
             <button class="dropbtn">About Quiz</button>
             <button class="dropbtn"></button>
             <div class="dropdown content">
-                <a href="#">Quiz Info</a>
-                <a href="#">Play Quiz</a>
-                <a href="#">Meet The Team</a>
+                <a href="animal.html">Play Quiz</a>
+                <a href="about.html">Meet The Team</a>
             </div>
-
         </nav>
         <h1>Truthy Falsey</h1>
     </header>
@@ -42,12 +43,43 @@
             in the links at the foot of the page.</p>
         <br>
         <fieldset>
-            
-        </fieldset>    
-
+            <legend>Your details</legend>
+            <div>
+                <label for="name-field">Name</label>
+                <input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="email-field">Email</label>
+                <input id="email-field" type="email" name="email" placeholder="Your email" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Feedback</legend>
+            <label for="feedback">Add your comments below</label>
+            <br>
+            <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+        </fieldset>
+        <br>
+        <h2>Meet the team.</h2>
+        <div>
+            <p>Sarah Moorby</p>
+            <a>Linkedin</a>
+            <a>Github</a>
+        </div>
+        <div>
+            <p>Zandile Masilo</p>
+            <a>Linkedin</a>
+            <a>Github</a>
+        </div>
+        <div>
+            <p>Heath Croasdale</p>
+            <a>Linkedin</a>
+            <a>Github</a>
+        </div>
     </main>
 
     <!--Footer-->
+
 
     <footer class="social-footer">
         <div class="social-media">
@@ -73,9 +105,5 @@
     </footer>
 
 </body>
-<<<<<<< HEAD
-</html>
-=======
 
 </html>
->>>>>>> c9064f5941a11b8f1bb62df025cf42c011676c66
