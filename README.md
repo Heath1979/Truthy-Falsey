@@ -61,12 +61,14 @@ Visitors will be able to understand the layout of the site and what it is trying
 
   - A user can understand what the website is about and how to access the different pages through the use of the navigation bar.
   - A user can have a fun and interactive experience by accessing the quiz pages.
-
-
+  - A user will receive feedback on each answer with a supportive message.
+  - A user will be able to keep track of correct and incorrect answers.
+  - A user can find supporting social media links.
 
 ### **Returning Visitor**  
 
-  - list of goals for returning visitors
+  - A user will be able to pick their favourite animal and understand which quiz they are accessing.
+  - A user will be able to use the contact form to request updates and provide suggestions.
   
 --- 
 
@@ -74,34 +76,34 @@ Visitors will be able to understand the layout of the site and what it is trying
   
 ### **1. Strategy**  
 
-- I required an easy-to-read, dependable website that delivers clear information about
-- Links to further resources 
-- Mobile responsiveness is an essential feature required for this website.
+- The organisation requires ad easy-to-read, dependable website that delivers clear information that allows for children to be able to understand how to play the quizzes.
+- Links to social media sites should be available.
+- The site will be optimised for tablet but should still be resposive amongst all screen sizes.
+- The site must have a child friendly and engaging palette and should be age appropriate.
+ - User engagement is an essential feature required for this website.
   
 ### **2. Scope**  
 
-The site must be available on a wide range of devices due to the varied range of potential users. Add further details.
-
-- The site is to contain?
-- Text must be clear and legible on any sized device to allow the user?
+The Truthy/Falsey site must be available on a wide range of devices in order to support user activity. The main target audience is young children but adults should also be able to use in case the target audience needs early direction. Once initial direction has been demonstrated then it is expected that returning users should be able to navigate with ease. 
+- The site is to contain quizzes that supplement educational requirements.
+- Text must be clear and legible on any sized device and adhere to accessibility guidelines. 
+- A guide to how to use the site will be available in the About section.
+- For future development we should look at SEN needs and how changes to the website can be made to meet these criteria.
   
 ### **3. Structural**  
 
-Similar to the idea for the design and layout to be accessible and functional, simple navigation and interactivity were essential. The site needed to provide information swiftly no matter the knowledge of the user.  
-- Easy to identify, clickable links with a consistent layout. The design was to be predictable in line with current trends. 
+The design and layout of the website should be simple, functional and accessible. Users should be able to understand what the site is about from the landing page and quickly navigate to the desired page through a navigation menu. 
+- Easy to identify, clickable links with a consistent layout. The design is to be predictable and aligned with current trends.
 - Any buttons or links had to provide feedback to the user to identify their purpose in the form of a design change that followed the flow of the overall aesthetic.   
 
 ### **4. Skeleton**  
 
-The site was developed to be simple, clear, and familiar.  
-
-- For the landing page, the header and supporting image is to be at the top and fill the width of the page, no matter the orientation or screen size.  
-- There will be a simple three-item navigation bar of 'Home', '?', and '?'.
-- A large, clear image dominates the landing page with a view of the brand image.  
-- The image will be supported by?
-- The page ends with the footer containing social media links and copyright information.
-- The page will contain?
-- The page will contain?
+The site has been developed to be simple, clear, engaging, and familiar
+- For the landing page the navigation menu should be evident in the top right of the screen with the home navigation button in the top left. The supporting header underneath will contain the site brand.
+- Further navigation links will be provided in the landing page through clicking on animals.
+- A large, clear image dominates the background with a view of a woodland.
+- The landing page will be supported by an aboy page accessed through the menu.
+- The page ends with the footer containing brand copyright. Social media links will be available on the About page.
 
 ### Wireframes  
 <details open>
