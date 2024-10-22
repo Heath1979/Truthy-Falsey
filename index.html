@@ -5,18 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
 </head>
 <body>
     <!--Header-->
     <header>
-        <button href="index.html" class="active" id="home">Home</button>
-        <nav class="dropdown">
-            <button class="dropbtn">About Quiz</button>
-            <button class="dropbtn"></button>
-            <div class="dropdown-content">
-                <a href="animal.html">Play Quiz</a>
-                <a href="about.html">Meet The Team</a>
-            </div>
+        <a href="index.html">
+            <h1 id="logo">Home</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="animal.html">Quiz</a></li>
+                <li><a href="about.html">Meet the Team</a></li>
+            </ul>
         </nav>
     </header>
     <!--Main-->
@@ -30,32 +36,7 @@
         </div>
     </main>
 
-    <!--Footer-->
-
-    <footer class="social-footer">
-        <div class="social-media">
-            <a href="https://www.facebook.com/" target="_blank" class="social-link">
-                <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook"
-                    class="social-icon">
-            </a>
-            <a href="https://www.twitter.com/" target="_blank" class="social-link">
-                <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter" class="social-icon">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank" class="social-link">
-                <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram"
-                    class="social-icon">
-            </a>
-
-        </div>
-        <div class="copyright">
-            <p>&copy; 2024 Truth Falsey. All rights reserved</p>
-
-
-        </div>
-
-    </footer>
-
-
+    
 </body>
 
 </html>
