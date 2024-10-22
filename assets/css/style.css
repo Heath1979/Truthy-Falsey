@@ -14,51 +14,62 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #C4C112 ;
+    background-color: #c4c112 ;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 1000;
-    color: white;
+    color: white; 
 }
 header a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; 
+    color: white; 
 }
+
+
 #logo {
-    font-size: 1.5em;
+    font-size: 1.5em; 
     text-decoration: none;
     color: white;
 }
 nav {
     display: flex;
 }
+
 #menu {
     list-style: none;
     display: flex;
     gap: 20px;
 }
+
 #menu li {
     padding: 10px 0;
 }
+
 #menu li a {
     color: white;
     text-decoration: none;
     font-size: 1em;
 }
+
 #menu li a:hover {
     text-decoration: underline;
 }
+
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     display: none;
     font-size: 1.5em;
     cursor: pointer;
     color: white;
 }
+
+
 @media (max-width: 768px) {
     .nav-toggle-label {
         display: block;
@@ -66,26 +77,30 @@ nav {
         cursor: pointer;
         color: white;
         position: absolute;
-        right: 20px;
-        top: 10px;
+        right: 20px; 
+        top: 10px; 
     }
+
     #menu {
         display: none;
         flex-direction: column;
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #C4C112;
+        background-color: #c4c112; 
         width: 100%;
     }
+    
     #nav-toggle:checked + .nav-toggle-label + nav #menu {
         display: flex;
     }
+    
     #menu li {
         text-align: center;
         padding: 15px 0;
         border-bottom: 1px solid white;
     }
+
     #menu li a {
         font-size: 1.2em;
     }
@@ -98,18 +113,18 @@ body {
     align-items: center;
     background-image: url('../images/Designer-(5)-Photoroom.png');
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     padding-top: 80px;
 }
 .heading-container {
     margin-top: 20px;
     margin-left: 20px;
-    background-color: #C4C112;
+    background-color: #c4c112;
     padding: 50px 50px;
-    border-radius: 15px;
+    border-radius: 15px; 
     display: inline-block;
     margin-bottom: 50px;
-    max-width: 90%;
+    max-width: 90%; 
     text-align: center;
     font-size: 1.5em;
     box-shadow: 5px 10px 8px 10px;
@@ -129,7 +144,7 @@ body {
 /* styling for the speech bubble contents*/
 .speech-bubb {
     position: relative;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 20px 25px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -146,7 +161,8 @@ body {
     transform: translateX(-50%);
     border-width: 10px;
     border-style: solid;
-    border-color: #FFFFFF transparent transparent transparent; /* Triangle pointing up */
+    border-color: #ffffff transparent transparent transparent; /* Triangle pointing up */
+
 }
 .resp-image {
     max-width: 100%;
@@ -157,18 +173,3 @@ body {
         max-width: 50%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
