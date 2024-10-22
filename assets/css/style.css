@@ -54,6 +54,7 @@ body {
     width: fit-content;
     max-width: 90%;
 }
+/* added a triangle part for the speech bubble */
 .speech-bubb::after {
     content: '';
     position: absolute;
