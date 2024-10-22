@@ -66,3 +66,12 @@ body {
     border-color: #ffffff transparent transparent transparent; /* Triangle pointing up */
 
 }
+.resp-image {
+    max-width: 100%;
+    height: auto;
+}
+@media (min-width: 768px) {
+    .resp-image {
+        max-width: 50%;
+    }
+}
