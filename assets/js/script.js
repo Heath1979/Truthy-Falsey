@@ -3,7 +3,25 @@ let currentQuestionIndex = 0;
 let score = 0;
 let questions = [];
 
-// get from API
+//audio
+const audio = new Audio("assets/audio/nature-birds-ambiance-morning-kisses-214774.mp3"); 
+let isPlaying = false; 
+
+//Audio button 
+document.getElementById('audio-button').addEventListener('click', () => {
+    if (isPlaying) {
+        audio.pause(); 
+        audio.currentTime = 0; 
+        isPlaying = false;
+        document.getElementById('audio-button').textContent = ""; 
+    } else {
+        audio.play(); 
+        isPlaying = true;
+        document.getElementById('audio-button').textContent = "Stop"; 
+    }
+});
+
+// Get from API
 async function fetchQuestions() {
     const response = await fetch(apiUrl);
     const data = await response.json();
@@ -17,7 +35,7 @@ function displayQuestion() {
         const currentQuestion = questions[currentQuestionIndex];
         document.getElementById('question').innerHTML = decodeHtml(currentQuestion.question);
 
-        // shuffle answers
+        // Shuffle answers
         const answers = [...currentQuestion.incorrect_answers, currentQuestion.correct_answer];
         shuffleArray(answers);
 
@@ -31,7 +49,7 @@ function displayQuestion() {
             answersDiv.appendChild(answerButton);
         });
 
-        // put answer in speech bubble
+        // Put answer in speech bubble
         document.getElementById('next').style.display = 'none';
         document.getElementById('feedback').style.display = 'none';
     } else {
@@ -48,22 +66,22 @@ function checkAnswer(selectedAnswer) {
         score++;
         showFeedback("Well Done!", true);
     } else {
-        showFeedback("Bad Luck! ", + correctAnswer, false);
+        showFeedback("Bad Luck! " + correctAnswer, false);
     }
 
     disableAnswerButtons();
     document.getElementById('next').style.display = 'block';
 }
 
-// close answer buttons
+// Close answer buttons
 function disableAnswerButtons() {
     const answerButtons = document.querySelectorAll('.answer');
     answerButtons.forEach(button => {
-        button.onclick = null; 
+        button.onclick = null;
     });
 }
 
-// show feedback
+// Show feedback
 function showFeedback(message, isCorrect) {
     const feedbackElement = document.getElementById('feedback');
     feedbackElement.textContent = message;
@@ -79,7 +97,7 @@ function showScore() {
     document.getElementById('feedback').style.display = 'none';
 }
 
-// next question
+// Next question
 document.getElementById('next').onclick = () => {
     currentQuestionIndex++;
     displayQuestion();
@@ -93,7 +111,7 @@ function shuffleArray(array) {
     }
 }
 
-// decode HTML because was jumbled. 
+// Decode HTML because it was jumbled. 
 function decodeHtml(html) {
     const txt = document.createElement('textarea');
     txt.innerHTML = html;
@@ -101,5 +119,3 @@ function decodeHtml(html) {
 }
 
 fetchQuestions();
-
-//audio

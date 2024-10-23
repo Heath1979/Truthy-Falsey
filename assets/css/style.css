@@ -117,7 +117,7 @@ body {
     padding-top: 80px;
 }
 .heading-container {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     background-color: #c4c112;
     padding: 50px 50px;
@@ -129,6 +129,31 @@ body {
     font-size: 1.5em;
     box-shadow: 5px 10px 8px 10px;
 }
+/* audio styling */
+.audio-container {
+    display: flex;                /* Use flexbox to center items */
+    justify-content: center;      /* Center horizontally */
+    margin-top: 10px;            /* Space between heading and button */
+}
+
+/* Style for the audio button */
+#audio-button {
+    background-color: #ce95c4; 
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px; 
+    cursor: pointer;
+    border-radius: 15px; 
+    transition: background-color 0.3s;
+}
+
+
+#audio-button:hover {
+    background-color: #914b84
+}
 
 /* make image stay central */
 .image-container {
@@ -139,7 +164,7 @@ body {
     height: 60vh;
     cursor: pointer;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 50px;
 }
 /* styling for the speech bubble contents*/
