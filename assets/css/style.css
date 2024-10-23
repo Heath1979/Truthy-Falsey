@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* height and font for body and html */
 html, body {
     height: 100%;
     font-family: Manrope, sans-serif;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -22,17 +24,18 @@ header {
     z-index: 1000;
     color: white; 
 }
+
 header a {
     text-decoration: none; 
     color: white; 
 }
-
 
 #logo {
     font-size: 1.5em; 
     text-decoration: none;
     color: white;
 }
+
 nav {
     display: flex;
 }
@@ -57,7 +60,6 @@ nav {
     text-decoration: underline;
 }
 
-
 #nav-toggle {
     display: none;
 }
@@ -68,7 +70,6 @@ nav {
     cursor: pointer;
     color: white;
 }
-
 
 @media (max-width: 768px) {
     .nav-toggle-label {
@@ -85,7 +86,7 @@ nav {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 50px;
         right: 0;
         background-color: #c4c112; 
         width: 100%;
@@ -105,6 +106,7 @@ nav {
         font-size: 1.2em;
     }
 }
+
 /* To make all the elements central to the page */
 body {
     display: flex;
@@ -117,6 +119,7 @@ body {
     padding-top: 80px;
     background-position: center;
 }
+
 .heading-container {
     margin-top: 50px; 
     margin-left: auto; 
@@ -144,6 +147,7 @@ body {
     text-align: center; 
     font-size: 1em;    
 }
+
 /* audio styling */
 .audio-container {
     display: flex;                
@@ -165,7 +169,6 @@ body {
     transition: background-color 0.3s;
 }
 
-
 #audio-button:hover {
     background-color: #914b84
 }
@@ -182,6 +185,7 @@ body {
     margin-top: 20px;
     padding: 50px;
 }
+
 /* styling for the speech bubble contents*/
 .speech-bubb {
     position: relative;
@@ -193,6 +197,7 @@ body {
     width: fit-content;
     max-width: 90%;
 }
+
 /* added a triangle part for the speech bubble */
 .speech-bubb::after {
     content: '';
@@ -203,18 +208,19 @@ body {
     border-width: 10px;
     border-style: solid;
     border-color: #ffffff transparent transparent transparent; /* Triangle pointing up */
-
 }
+
 .resp-image {
     max-width: 100%;
     height: auto;
 }
+
 @media (min-width: 768px) {
     .resp-image {
         max-width: 50%;
-    }
-    
+    }    
 }
+
 /* quiz page css */
 #question {
     margin: 20px;
@@ -225,12 +231,14 @@ body {
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 #answers {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
+
 .answer {
     background-color: #c4c112;
     border: none;
@@ -243,6 +251,7 @@ body {
     width: 200px;
     text-align: center;
 }
+
 .answer:hover {
     background-color: #b3a510;
 }
@@ -261,6 +270,7 @@ body {
 #next:hover {
     background-color: #555;
 }
+
 /* Feedback and speech bubble */
 #feedback-container {
     display: flex;
@@ -302,4 +312,3 @@ body {
     margin: 20px;
     text-align: center;
 }
-
