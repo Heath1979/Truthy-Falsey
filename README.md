@@ -106,24 +106,28 @@ The site has been developed to be simple, clear, engaging, and familiar
 - The page ends with the footer containing brand copyright. Social media links will be available on the About page.
 
 ### Wireframes  
+
 <details open>
 <summary>Wireframe - Homepage Desktop</summary>  
 
 ![homepage wireframe-mobile & desktop](docs/documentation/)
-</details> 
-<details >
-<summary>Wireframe - Homepage Mobile</summary>  
 
-![homepage wireframe-desktop](docs/documentation/)
+</details> 
+
+<details >
+<summary>Wireframe - About us page Mobile and desktop</summary>  
+
+![About us page wireframe-desktop & mobile](docs/documentation/about-us-wireframe.png)
+
 </details> 
 
 ### **5. Surface**  
 
- A design was created that allowed a consistent flow throughout the site.   
- - A background color was implemented to add? 
- - A palette of? 
+ A design was created so that on initial landing children would direct to the main body containing clickable links hideen behind animal images whilst adults would be drawn intuitively to the navigation menu at the head of the page.
+ - A background image was used to supoprt engagement from the target market for the site.
+ - The pallete is bright yet soft in line with modern standards.
 
-Overall, the design was intended to show that?
+Overall, the design was intended to engage children directly through the use of a wonderland woodland scene whilst Adults could engage the site through the use of the navigation menu as per industry standards
  
 ---   
   
@@ -131,9 +135,9 @@ Overall, the design was intended to show that?
 
 ### **Color Scheme**  
 
-The website uses a pallette of pastels in line with the brief that the site should have a caliming effect. The corn silk was intended to be the main background focus initially as outlined in the wireframe but worked better visibily as a background for the header and the footer and contrasted nicely with the background image in the main content section.
+The website uses a pallette of bright contempory pastels that align with colours used in contempory childrens media and literature. The belief is that this will provide a familiarity to the target audience and allow them to engage with ease.
 
-![Color schem](docs/documentation/)
+![Color schem](docs/documentation/color-pallete.png)
   
 ### **Typography**  
 
