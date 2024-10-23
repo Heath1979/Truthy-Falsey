@@ -129,6 +129,27 @@ body {
     font-size: 1.5em;
     box-shadow: 5px 10px 8px 10px;
 }
+/* audio button styling */
+
+.audio-toggle {
+    display: block;
+    margin: 20px auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
+.audio-toggle i {
+    transition: color 0.3s ease;
+}
+
+.audio-toggle i:hover {
+    color: #ff6347; /* Change color on hover */
+}
+
 /* make image stay central */
 .image-container {
     display: flex;
@@ -173,3 +194,14 @@ body {
         max-width: 50%;
     }
 }
+/* quiz page css */
+#question {
+    margin: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
