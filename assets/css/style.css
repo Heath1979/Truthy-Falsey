@@ -112,10 +112,10 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('../images/Designer (5).jpg');
-    background-size: cover no repeat;
+    background-size: cover center;
     background-repeat: no-repeat; 
     padding-top: 80px;
-    background-position: center center;
+    background-position: center;
 }
 .heading-container {
     margin-top: calc(131px + 20px);
@@ -238,7 +238,7 @@ body {
     margin: 10px 0;
     cursor: pointer;
     font-size: 1.1em;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 200px;
     text-align: center;
 }
