@@ -6,11 +6,11 @@ let questions = [];
 async function fetchQuestions() {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    questions = data.results;
+    questions = data.results; add
     displayQuestion();
 }
 function displayQuestion() {
-    if (currentQuestionIndex < questions.length) 
+    if (currentQuestionIndex < questions.length) {
         const currentQuestion = questions[currentQuestionIndex];
         document.getElementById('question').innerHTML = decodeHtml(currentQuestion.question);
 
@@ -27,3 +27,9 @@ function displayQuestion() {
             answerButton.onclick = () => checkAnswer(answer);
             answersDiv.appendChild(answerButton);
         });
+        document.getElementById('next').style.display = 'none';
+        document.getElementById('feedback').style.display = 'none';
+    } else {
+        showScore();
+    }
+}
