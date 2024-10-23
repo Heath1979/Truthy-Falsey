@@ -46,3 +46,9 @@ function checkAnswer(selectedAnswer) {
     disableAnswerButtons();
     document.getElementById('next').style.display = 'block';
 }
+function disableAnswerButtons() {
+    const answerButtons = document.querySelectorAll('.answer');
+    answerButtons.forEach(button => {
+        button.onclick = null; 
+    });
+}
