@@ -112,9 +112,10 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url('../images/Designer (5).jpg');
-    background-size: cover;
+    background-size: cover no repeat;
     background-repeat: no-repeat; 
     padding-top: 80px;
+    background-position: center center;
 }
 .heading-container {
     margin-top: calc(131px + 20px);
@@ -211,6 +212,7 @@ body {
     .resp-image {
         max-width: 50%;
     }
+    
 }
 /* quiz page css */
 #question {
