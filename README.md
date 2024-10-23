@@ -2,7 +2,7 @@
 
 [View live project here on GitHub](add deployment URL)
 
-Truthy/Falsey is a quiz website aimed at young children in and aligned with educational requirements. Currently the organisation are looking at animals in the natural world and would like an interactive quiz that allows children to test their knowledge in a fun and interactive way.  The organisation would also like the function to create further quizzes that would align with the current curriculum.
+Truthy or Falsey is a quiz website aimed at young children in and aligned with educational requirements. Currently the organisation are looking at animals in the natural world and would like an interactive quiz that allows children to test their knowledge in a fun and interactive way.  The organisation would also like the function to create further quizzes that would align with the current curriculum.
 
 <br>  
   
@@ -51,7 +51,7 @@ Truthy/Falsey is a quiz website aimed at young children in and aligned with educ
 
 ### **Primary Goal**  
   
-Truthy/Falsey is an interactive quiz aimed at young children to help test and enhance knowledge gained through the organisation curriculum. The site will have a landing page that explains what the site is about and how the game will work. A navigation menu will be placed at the top of the site to help navigate to the different quiz sections for adult UI. Links hidden in animals will available on the main page for children to access quizzes.
+Truthy or Falsey is an interactive quiz aimed at young children to help test and enhance knowledge gained through the organisation curriculum. The site will have a landing page that explains what the site is about and how the game will work. A navigation menu will be placed at the top of the site to help navigate to the different quiz sections for adult UI. Links hidden in animals will available on the main page for children to access quizzes.
 
 ### **Visitor Goals** 
 
@@ -84,7 +84,7 @@ Visitors will be able to understand the layout of the site and what it is trying
   
 ### **2. Scope**  
 
-The Truthy/Falsey site must be available on a wide range of devices in order to support user activity. The main target audience is young children but adults should also be able to use in case the target audience needs early direction. Once initial direction has been demonstrated then it is expected that returning users should be able to navigate with ease. 
+The Truthy or Falsey site must be available on a wide range of devices in order to support user activity. The main target audience is young children but adults should also be able to use in case the target audience needs early direction. Once initial direction has been demonstrated then it is expected that returning users should be able to navigate with ease. 
 - The site is to contain quizzes that supplement educational requirements.
 - Text must be clear and legible on any sized device and adhere to accessibility guidelines. 
 - A guide to how to use the site will be available in the About section.
@@ -106,24 +106,28 @@ The site has been developed to be simple, clear, engaging, and familiar
 - The page ends with the footer containing brand copyright. Social media links will be available on the About page.
 
 ### Wireframes  
+
 <details open>
 <summary>Wireframe - Homepage Desktop</summary>  
 
 ![homepage wireframe-mobile & desktop](docs/documentation/)
-</details> 
-<details >
-<summary>Wireframe - Homepage Mobile</summary>  
 
-![homepage wireframe-desktop](docs/documentation/)
+</details> 
+
+<details >
+<summary>Wireframe - About us page Mobile and desktop</summary>  
+
+![About us page wireframe-desktop & mobile](docs/documentation/about-us-wireframe.png)
+
 </details> 
 
 ### **5. Surface**  
 
- A design was created that allowed a consistent flow throughout the site.   
- - A background color was implemented to add? 
- - A palette of? 
+ A design was created so that on initial landing children would direct to the main body containing clickable links hideen behind animal images whilst adults would be drawn intuitively to the navigation menu at the head of the page.
+ - A background image was used to supoprt engagement from the target market for the site.
+ - The pallete is bright yet soft in line with modern standards.
 
-Overall, the design was intended to show that?
+Overall, the design was intended to engage children directly through the use of a wonderland woodland scene whilst Adults could engage the site through the use of the navigation menu as per industry standards
  
 ---   
   
@@ -131,9 +135,9 @@ Overall, the design was intended to show that?
 
 ### **Color Scheme**  
 
-The website uses a pallette of pastels in line with the brief that the site should have a caliming effect. The corn silk was intended to be the main background focus initially as outlined in the wireframe but worked better visibily as a background for the header and the footer and contrasted nicely with the background image in the main content section.
+The website uses a pallette of bright contempory pastels that align with colours used in contempory childrens media and literature. The belief is that this will provide a familiarity to the target audience and allow them to engage with ease.
 
-![Color schem](docs/documentation/)
+![Color schem](docs/documentation/color-pallete.png)
   
 ### **Typography**  
 
@@ -184,7 +188,7 @@ The footer contains clickable links to social media sites and is consistent acro
  
 ### **Desktop, Tablet & Mobile Differences**  
   
-To ensure responsivity I used flexbox in my CSS styling. content is aligned ? on mobile devices but moves ? on larger screen sizes.
+To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the header and navigation elements to ensure that content is aligned. The site is optimised for tablet but still responds across all screen sizes.
   
 ### **Mobile View (iPhone SE)**  
   
@@ -229,7 +233,7 @@ To ensure responsivity I used flexbox in my CSS styling. content is aligned ? on
 GitHub was used to deploy the website. These were the steps taken to acheive this:  
 
 1. Login to GitHub account
-2. Navigate to the project repository, scoops_pp1
+2. Navigate to the project repository, Truthy-Falsey
 3. Click the Settings button near the top of the page
 4. In the left-hand menu, find and click on the Pages button
 5. In the Source section, choose 'main' from the drop-down, select branch menu
