@@ -43,3 +43,6 @@ function checkAnswer(selectedAnswer) {
     } else {
         showFeedback("Bad Luck! ", + correctAnswer, false);
     }
+    disableAnswerButtons();
+    document.getElementById('next').style.display = 'block';
+}
