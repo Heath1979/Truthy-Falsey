@@ -33,3 +33,13 @@ function displayQuestion() {
         showScore();
     }
 }
+function checkAnswer(selectedAnswer) {
+    const currentQuestion = questions[currentQuestionIndex];
+    const correctAnswer = currentQuestion.correct_answer;
+
+    if (selectedAnswer === correctAnswer) {
+        score++;
+        showFeedback("Well Done!", true);
+    } else {
+        showFeedback("Bad Luck! ", + correctAnswer, false);
+    }
