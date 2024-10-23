@@ -9,3 +9,7 @@ async function fetchQuestions() {
     questions = data.results;
     displayQuestion();
 }
+function displayQuestion() {
+    if (currentQuestionIndex < questions.length) {
+        const currentQuestion = questions[currentQuestionIndex];
+        document.getElementById('question').innerHTML = decodeHtml(currentQuestion.question);
