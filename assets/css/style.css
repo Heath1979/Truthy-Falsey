@@ -111,29 +111,43 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../images/Designer-(5)-Photoroom.png');
-    background-size: cover;
+    background-image: url('../images/Designer (5).jpg');
+    background-size: cover center;
     background-repeat: no-repeat; 
     padding-top: 80px;
+    background-position: center;
 }
 .heading-container {
-    margin-top: 40px;
+    margin-top: calc(131px + 20px);
     margin-left: 20px;
     background-color: #c4c112;
-    padding: 50px 50px;
+    padding: 20px 20px;
     border-radius: 15px; 
     display: inline-block;
     margin-bottom: 50px;
     max-width: 90%; 
     text-align: center;
-    font-size: 1.5em;
-    box-shadow: 5px 10px 8px 10px;
+    font-size: 1.2em;
+}
+
+.heading-container1 {
+    margin-top: calc(131px + 20px);
+    margin-left: 20px;
+    background-color: #c4c112;
+    padding: 20px 20px;
+    border-radius: 15px; 
+    display: inline-block;
+    margin-bottom: 50px;
+    max-width: 90%; 
+    text-align: center;
+    font-size: 1.2em;
+   
 }
 /* audio styling */
 .audio-container {
-    display: flex;                /* Use flexbox to center items */
-    justify-content: center;      /* Center horizontally */
-    margin-top: 10px;            /* Space between heading and button */
+    display: flex;                
+    justify-content: center;     
+    margin-top: 10px;           
 }
 
 /* Style for the audio button */
@@ -198,6 +212,7 @@ body {
     .resp-image {
         max-width: 50%;
     }
+    
 }
 /* quiz page css */
 #question {
@@ -223,7 +238,7 @@ body {
     margin: 10px 0;
     cursor: pointer;
     font-size: 1.1em;
-    color: white;
+    color: rgb(0, 0, 0);
     width: 200px;
     text-align: center;
 }
