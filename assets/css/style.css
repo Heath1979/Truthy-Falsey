@@ -129,26 +129,6 @@ body {
     font-size: 1.5em;
     box-shadow: 5px 10px 8px 10px;
 }
-/* audio button styling */
-
-.audio-toggle {
-    display: block;
-    margin: 20px auto;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 24px;
-    color: #000;
-    text-align: center;
-}
-
-.audio-toggle i {
-    transition: color 0.3s ease;
-}
-
-.audio-toggle i:hover {
-    color: #ff6347; /* Change color on hover */
-}
 
 /* make image stay central */
 .image-container {
