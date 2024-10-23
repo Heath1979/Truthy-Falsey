@@ -110,14 +110,14 @@ The site has been developed to be simple, clear, engaging, and familiar
 <details open>
 <summary>Wireframe - Homepage Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/)
+![homepage wireframe-mobile & desktop](docs/documentation/landing-page-wireframe.png)
 
 </details> 
 
 <details open>
 <summary>Wireframe - Quiz page Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/quiz-page-wireframe.png)
+![homepage wireframe-desktop](docs/documentation/quiz-page-wireframe.png)
 
 </details> 
 
@@ -144,7 +144,7 @@ Overall, the design was intended to engage children directly through the use of 
 
 The website uses a pallette of bright contempory pastels that align with colours used in contempory childrens media and literature. The belief is that this will provide a familiarity to the target audience and allow them to engage with ease.
 
-![Color schem](docs/documentation/color-pallete.png)
+![Color scheme](docs/documentation/color-pallete.png)
   
 ### **Typography**  
 
@@ -249,7 +249,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/documentation/) 
+![screenshot of how to deploy site on github](docs/documentation/deployment-instructions.png) 
 
 ---  
     
@@ -309,6 +309,7 @@ For Desktop
 | Bug | Section | Fix |
 | :----| :----| :--------:|
 | Menu not alligned correctly | All site | CSS used initialy. fixed through implentation of Bootstrap |
+| Audio not playing | Quiz page | Files not linked correctly |
 
 
 ### **Unsolved Bugs** 
