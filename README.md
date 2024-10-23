@@ -315,7 +315,7 @@ For Desktop
 
 ### **Unsolved Bugs** 
 
-- Use bullet points for unsolved bugs
+- Favicon folder inputed as uppercase. When amended favicons caused an error so had to keep folder as uppercase F.
 
 ## Credits  
   
