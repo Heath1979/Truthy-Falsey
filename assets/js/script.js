@@ -3,12 +3,15 @@ let currentQuestionIndex = 0;
 let score = 0;
 let questions = [];
 
+// get from API
 async function fetchQuestions() {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    questions = data.results; add
+    questions = data.results;
     displayQuestion();
 }
+
+// Display question
 function displayQuestion() {
     if (currentQuestionIndex < questions.length) {
         const currentQuestion = questions[currentQuestionIndex];
@@ -27,12 +30,16 @@ function displayQuestion() {
             answerButton.onclick = () => checkAnswer(answer);
             answersDiv.appendChild(answerButton);
         });
+
+        // put answer in speech bubble
         document.getElementById('next').style.display = 'none';
         document.getElementById('feedback').style.display = 'none';
     } else {
         showScore();
     }
 }
+
+// Check if the selected answer is correct and provide feedback
 function checkAnswer(selectedAnswer) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctAnswer = currentQuestion.correct_answer;
@@ -43,9 +50,12 @@ function checkAnswer(selectedAnswer) {
     } else {
         showFeedback("Bad Luck! ", + correctAnswer, false);
     }
+
     disableAnswerButtons();
     document.getElementById('next').style.display = 'block';
 }
+
+// close answer buttons
 function disableAnswerButtons() {
     const answerButtons = document.querySelectorAll('.answer');
     answerButtons.forEach(button => {
@@ -53,28 +63,37 @@ function disableAnswerButtons() {
     });
 }
 
+// show feedback
 function showFeedback(message, isCorrect) {
     const feedbackElement = document.getElementById('feedback');
     feedbackElement.textContent = message;
     feedbackElement.className = isCorrect ? 'speech-bubble correct' : 'speech-bubble incorrect';
     feedbackElement.style.display = 'block';
 }
+
+// Show score
 function showScore() {
     document.getElementById('question').innerText = `Quiz Over! Your score is ${score} out of ${questions.length}.`;
     document.getElementById('answers').innerHTML = '';
     document.getElementById('next').style.display = 'none';
     document.getElementById('feedback').style.display = 'none';
 }
+
+// next question
 document.getElementById('next').onclick = () => {
     currentQuestionIndex++;
     displayQuestion();
 };
+
+// Shuffle array 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
 }
+
+// decode HTML because was jumbled. 
 function decodeHtml(html) {
     const txt = document.createElement('textarea');
     txt.innerHTML = html;
