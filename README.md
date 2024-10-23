@@ -141,13 +141,13 @@ The website uses a pallette of bright contempory pastels that align with colours
   
 ### **Typography**  
 
-  [Google Fonts](https://fonts.google.com/) was used to import (insert font style) and why?
+  [Google Fonts](https://fonts.google.com/) was used to import Manrope and because it is a similar font to others used in Childrens promotional material and as such will add familiarity.
 
-  ![google Fonts type used](docs/documentation/google-font)
+  ![google Fonts type used](docs/documentation/google-fonts-manrope.png)
         
 ### **Imagery**  
 
-  Description of imagery to be used across the website
+  The imagery used across the main landing page and quiz pages is intended to draw in the user in an imaginary woodland scene. In line with a lot of childrens literature woodland scnes are ofthen depicted as a place of magic and wonder that allows the imagination to thrive.
 
 ---  
 
@@ -212,6 +212,7 @@ To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the 
 
 - HTML5
 - CSS3
+- JavaScript
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
@@ -225,6 +226,7 @@ To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the 
 - W3C Validator - for validating the HTML and CSS code 
 - Convertio - to compress images 
 - Favicon.io - to create favicon 
+- Bootstrap - to create the navigation element and header
 
 ## Deployment
 
@@ -299,6 +301,7 @@ For Desktop
 
 | Bug | Section | Fix |
 | :----| :----| :--------:|
+| Menu not alligned correctly | All site | CSS used initialy. fixed through implentation of Bootstrap |
 
 
 ### **Unsolved Bugs** 
@@ -308,13 +311,15 @@ For Desktop
 ## Credits  
   
 ### **Content References**
-All content written for the website is purely fictional and?
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material.
+All content written for the website is purely fictional and all questions used for the quiz aspect are generated from an external API.
+ - [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS/JS learning material.
+ - [p5js](https://editor.p5js.org/enickles/sketches/sC1UoT03B) for aid in writing JavaScript required for the functioanlity of the site
 
 ### **Media References**  
   - [Google fonts](https://fonts.google.com/) for font used on the site.
   - [Font awesome](https://fontawesome.com/) for icons used on the site.
   - [Favicon](https://favicon.io/) for the favicon used for this site.
+  - []() for the color palette used on this site.
 
 ### **Acknowledgements** 
 - Add acknowledgments in bullet points.
