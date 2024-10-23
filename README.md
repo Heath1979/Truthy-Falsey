@@ -307,7 +307,11 @@ For Desktop
 
 | Bug | Section | Fix |
 | :----| :----| :--------:|
-| Menu not alligned correctly | All site | CSS used initialy. fixed through implentation of Bootstrap |
+| Menu not alligned correctly | All site | Rebuild of nav menu corrected |
+| Menu dropping under the header and leaving a gap showing the main background | All site | changed top to 50 from 60 |
+| Social Media links would not react to CSS styling | About page | Amended images to icons |
+| Background image not leaving a gap at the foot of the page | Home and Quiz | Background size set to cover |
+| Content spilling out of container | About page | Initially had a contact area with a text area that was to large on smaller ecreen devices. Contact form removed to fix |
 
 
 ### **Unsolved Bugs** 
