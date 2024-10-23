@@ -1,12 +1,12 @@
 # Truthy/Falsey
 
-[View live project here on GitHub](add deployment URL)
+[View live project here on GitHub](https://heath1979.github.io/Truthy-Falsey/)
 
 Truthy or Falsey is a quiz website aimed at young children in and aligned with educational requirements. Currently the organisation are looking at animals in the natural world and would like an interactive quiz that allows children to test their knowledge in a fun and interactive way.  The organisation would also like the function to create further quizzes that would align with the current curriculum.
 
 <br>  
   
-![screenshot of landing page](docs/documentation/)
+![screenshot of landing page](docs/documentation/landing-page.png)
 
 ---
 
@@ -164,18 +164,18 @@ The website uses a pallette of bright contempory pastels that align with colours
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/) 
-![screenshot of navbar](docs/documentation/) 
+![screenshot of navbar](docs/documentation/navigation-closed.png) 
+![screenshot of navbar](docs/documentation/navigation-open.png) 
 
 </details>
-Navbar opens in mobile view, but displayed in larger screen sizes at the?
+Navbar opens in mobile view, but displayed in larger screen sizes at the head of the page.
 <br>  
 
 ### **Brand Image**  
 <details open>  
 <summary></summary>
 
-![screenshot of hero image](docs/documentation/)  
+![screenshot of hero image](docs/documentation/hero.png)  
 </details>
 
 
@@ -187,7 +187,7 @@ Navbar opens in mobile view, but displayed in larger screen sizes at the?
 
 ![screenshot of footer](docs/documentation/)
 </details>
-The footer contains clickable links to social media sites and is consistent across all screen sizes.
+The footer contains clickable links to social media sites and is consistent across all screen sizes. These links will only be avaible on the about page as we feel that it is inapprpriate for children to mistakenly click links that direct the user to external sites.
 
 ---   
 
