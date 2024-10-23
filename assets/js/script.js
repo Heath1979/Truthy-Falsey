@@ -10,10 +10,11 @@ async function fetchQuestions() {
     displayQuestion();
 }
 function displayQuestion() {
-    if (currentQuestionIndex < questions.length) {
+    if (currentQuestionIndex < questions.length) 
         const currentQuestion = questions[currentQuestionIndex];
         document.getElementById('question').innerHTML = decodeHtml(currentQuestion.question);
 
+        // shuffle answers
         const answers = [...currentQuestion.incorrect_answers, currentQuestion.correct_answer];
         shuffleArray(answers);
 
