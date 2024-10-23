@@ -52,3 +52,10 @@ function disableAnswerButtons() {
         button.onclick = null; 
     });
 }
+
+function showFeedback(message, isCorrect) {
+    const feedbackElement = document.getElementById('feedback');
+    feedbackElement.textContent = message;
+    feedbackElement.className = isCorrect ? 'speech-bubble correct' : 'speech-bubble incorrect';
+    feedbackElement.style.display = 'block';
+}
