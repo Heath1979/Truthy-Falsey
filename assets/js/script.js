@@ -16,3 +16,13 @@ function displayQuestion() {
 
         const answers = [...currentQuestion.incorrect_answers, currentQuestion.correct_answer];
         shuffleArray(answers);
+
+        const answersDiv = document.getElementById('answers');
+        answersDiv.innerHTML = '';
+        answers.forEach(answer => {
+            const answerButton = document.createElement('button');
+            answerButton.innerHTML = decodeHtml(answer);
+            answerButton.className = 'answer';
+            answerButton.onclick = () => checkAnswer(answer);
+            answersDiv.appendChild(answerButton);
+        });
