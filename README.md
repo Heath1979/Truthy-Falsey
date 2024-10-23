@@ -114,6 +114,13 @@ The site has been developed to be simple, clear, engaging, and familiar
 
 </details> 
 
+<details open>
+<summary>Wireframe - Quiz page Desktop</summary>  
+
+![homepage wireframe-mobile & desktop](docs/documentation/quiz-page-wireframe.png)
+
+</details> 
+
 <details >
 <summary>Wireframe - About us page Mobile and desktop</summary>  
 
@@ -313,13 +320,18 @@ For Desktop
 ### **Content References**
 All content written for the website is purely fictional and all questions used for the quiz aspect are generated from an external API.
  - [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS/JS learning material.
- - [p5js](https://editor.p5js.org/enickles/sketches/sC1UoT03B) for aid in writing JavaScript required for the functioanlity of the site
+ - [p5js](https://editor.p5js.org/enickles/sketches/sC1UoT03B) for aid in writing JavaScript required for the functioanlity of the site.
+ - [GeekProbin](https://www.youtube.com/watch?app=desktop&v=-cX5jnQgqSM) for references on building the quiz page.
+ - [Freelancing free complete courses](https://www.youtube.com/watch?v=UF1Wk2J0vCE) for refernces on building the quiz page.
+ - [Browserstack](https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=Start%20with%20the%20question%20%E2%80%9Chow,will%20adjust%20itself%20in%20accordance) on how to make images responsive.
+ - [Stackoverflow](https://stackoverflow.com/questions/70056109/how-to-make-a-speech-bubble-with-css) for how to create a speech bubble.
 
 ### **Media References**  
   - [Google fonts](https://fonts.google.com/) for font used on the site.
   - [Font awesome](https://fontawesome.com/) for icons used on the site.
   - [Favicon](https://favicon.io/) for the favicon used for this site.
   - []() for the color palette used on this site.
+  - [Open Trivia Database](https://opentdb.com/api_config.php) for API used on this website.
 
 ### **Acknowledgements** 
 - Add acknowledgments in bullet points.
