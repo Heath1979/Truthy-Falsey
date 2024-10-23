@@ -308,8 +308,9 @@ For Desktop
 
 | Bug | Section | Fix |
 | :----| :----| :--------:|
-| Menu not alligned correctly | All site | CSS used initialy. fixed through implentation of Bootstrap |
+| Menu not alligned correctly | All page | CSS used initialy. fixed through implentation of Bootstrap |
 | Audio not playing | Quiz page | Files not linked correctly |
+| Favicons not appearing | All pages | Folder in directory not written correctly. Amended to correct |
 
 
 ### **Unsolved Bugs** 
