@@ -65,3 +65,7 @@ function showScore() {
     document.getElementById('next').style.display = 'none';
     document.getElementById('feedback').style.display = 'none';
 }
+document.getElementById('next').onclick = () => {
+    currentQuestionIndex++;
+    displayQuestion();
+};
