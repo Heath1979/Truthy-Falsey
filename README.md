@@ -302,7 +302,6 @@ For Desktop
 
 ![screenshot of lighthouse audit for index page for MHFA](docs/documentation/)
 </details> 
-<details >
   
 ### **Bugs & Fixes**  
 
