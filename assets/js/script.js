@@ -59,3 +59,9 @@ function showFeedback(message, isCorrect) {
     feedbackElement.className = isCorrect ? 'speech-bubble correct' : 'speech-bubble incorrect';
     feedbackElement.style.display = 'block';
 }
+function showScore() {
+    document.getElementById('question').innerText = `Quiz Over! Your score is ${score} out of ${questions.length}.`;
+    document.getElementById('answers').innerHTML = '';
+    document.getElementById('next').style.display = 'none';
+    document.getElementById('feedback').style.display = 'none';
+}
