@@ -13,3 +13,6 @@ function displayQuestion() {
     if (currentQuestionIndex < questions.length) {
         const currentQuestion = questions[currentQuestionIndex];
         document.getElementById('question').innerHTML = decodeHtml(currentQuestion.question);
+
+        const answers = [...currentQuestion.incorrect_answers, currentQuestion.correct_answer];
+        shuffleArray(answers);
