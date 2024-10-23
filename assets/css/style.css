@@ -118,30 +118,31 @@ body {
     background-position: center;
 }
 .heading-container {
-    margin-top: calc(131px + 20px);
-    margin-left: 20px;
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
     background-color: #c4c112;
-    padding: 20px 20px;
-    border-radius: 15px; 
-    display: inline-block;
-    margin-bottom: 50px;
-    max-width: 90%; 
-    text-align: center;
-    font-size: 1.2em;
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    display: block; 
+    margin-bottom: 30px; 
+    max-width: 80%; 
+    text-align: center; 
+    font-size: 1em; 
 }
 
 .heading-container1 {
-    margin-top: calc(131px + 20px);
-    margin-left: 20px;
+    margin-top: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
     background-color: #c4c112;
-    padding: 20px 20px;
-    border-radius: 15px; 
-    display: inline-block;
-    margin-bottom: 50px;
-    max-width: 90%; 
-    text-align: center;
-    font-size: 1.2em;
-   
+    padding: 10px 15px; 
+    border-radius: 10px; 
+    display: block; 
+    margin-bottom: 30px; 
+    max-width: 80%; 
+    text-align: center; 
+    font-size: 1em;    
 }
 /* audio styling */
 .audio-container {
@@ -287,17 +288,6 @@ body {
 .speech-bubble.incorrect {
     background-color: #f44336;
     color: white;
-}
-
-.speech-bubble::after {
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-width: 10px;
-    border-style: solid;
-    border-color: white transparent transparent transparent;
 }
 
 .speaker-img {
