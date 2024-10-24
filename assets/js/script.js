@@ -57,7 +57,7 @@ function displayQuestion() {
     }
 }
 
-// Check if the selected answer is correct and provide feedback
+// Check if the selected answer is correct and provide feedback with earthquake effect and glow
 function checkAnswer(selectedAnswer) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctAnswer = currentQuestion.correct_answer;
