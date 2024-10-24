@@ -113,7 +113,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #35a6fd;
+    background-color: #35a6fd7f;
     padding: 80px 10px 10px 10px;
     opacity: 0.9;
     font-size: 1.2rem;
