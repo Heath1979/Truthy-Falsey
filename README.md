@@ -51,7 +51,7 @@ Truthy or Falsey is a quiz website aimed at young children in and aligned with e
 
 ### **Primary Goal**  
   
-Truthy or Falsey is an interactive quiz aimed at young children to help test and enhance knowledge gained through the organisation curriculum. The site will have a landing page that explains what the site is about and how the game will work. A navigation menu will be placed at the top of the site to help navigate to the different quiz sections for adult UI. Links hidden in animals will available on the main page for children to access quizzes.
+Truthy or Falsey is an interactive quiz aimed at young children (aged 5-7) to help test and enhance knowledge gained through the organisation curriculum. The site will have a landing page that explains what the site is about and how the game will work. A navigation menu will be placed at the top of the site to help navigate to the different quiz sections for adult UI. Links hidden in animals will available on the main page for children to access quizzes.
 
 ### **Visitor Goals** 
 
@@ -80,7 +80,7 @@ Visitors will be able to understand the layout of the site and what it is trying
 - Links to social media sites should be available.
 - The site will be optimised for tablet but should still be resposive amongst all screen sizes.
 - The site must have a child friendly and engaging palette and should be age appropriate.
- - User engagement is an essential feature required for this website.
+ - User engagement is an essential feature required for this website. This is achieved by implimenting interactivity to the page to engage a young audience.
   
 ### **2. Scope**  
 
@@ -131,7 +131,7 @@ The site has been developed to be simple, clear, engaging, and familiar
 ### **5. Surface**  
 
  A design was created so that on initial landing children would direct to the main body containing clickable links hideen behind animal images whilst adults would be drawn intuitively to the navigation menu at the head of the page.
- - A background image was used to supoprt engagement from the target market for the site.
+ - A background image was used to support engagement from the target market for the site.
  - The pallete is bright yet soft in line with modern standards.
 
 Overall, the design was intended to engage children directly through the use of a wonderland woodland scene whilst Adults could engage the site through the use of the navigation menu as per industry standards
@@ -142,7 +142,8 @@ Overall, the design was intended to engage children directly through the use of 
 
 ### **Color Scheme**  
 
-The website uses a pallette of bright contempory pastels that align with colours used in contempory childrens media and literature. The belief is that this will provide a familiarity to the target audience and allow them to engage with ease.
+The website uses a pallette of bright colours and pastels that align with colours used in contempory childrens media and literature. The belief is that this will provide a familiarity to the target audience and allow them to engage with ease.
+The colour scheme was adapted to improve accessibilty and make contrast better.
 
 ![Color schem](docs/documentation/color-pallete.png)
   
@@ -170,6 +171,12 @@ The website uses a pallette of bright contempory pastels that align with colours
 </details>
 Navbar opens in mobile view, but displayed in larger screen sizes at the head of the page.
 <br>  
+
+### **Javascript features** 
+THe javascript contains three areas of interactivity:
+- We used Trivia Database to obtain our API and implimented it into the quiz page.
+- There is an audio button to play woodland noises whist you play the game.
+- The correct and incorrect buttons in the quiz gives a shake when the answer is wrong. 
 
 ### **Brand Image**  
 <details open>  
@@ -234,6 +241,7 @@ To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the 
 - Convertio - to compress images 
 - Favicon.io - to create favicon 
 - Bootstrap - to create the navigation element and header
+-TriviaDB - for getting the API
 
 ## Deployment
 
