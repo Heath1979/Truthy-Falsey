@@ -121,6 +121,17 @@ body {
     padding-top: 80px;
     background-position: center;
 }
+.bck-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Designer (15).jpeg');
+    background-size: cover center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    background-position: center;
+}
 
 .heading-container {
     margin-top: 50px;
@@ -246,7 +257,7 @@ body {
 }
 
 .answer {
-    background-color: #c4c112;
+    background-color: #;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
