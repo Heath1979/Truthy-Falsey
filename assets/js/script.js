@@ -57,7 +57,7 @@ function displayQuestion() {
     }
 }
 
-// Check if the selected answer is correct and provide feedback with earthquake effect and glow
+// Check if the selected answer is correct and provide feedback with shake
 function checkAnswer(selectedAnswer) {
     const currentQuestion = questions[currentQuestionIndex];
     const correctAnswer = currentQuestion.correct_answer;
@@ -68,7 +68,7 @@ function checkAnswer(selectedAnswer) {
         document.querySelector('.answer').classList.add('correct-answer');
     } else {
         showFeedback("Bad Luck!", + correctAnswer, false);
-        document.querySelector('.answer').classList.add('correct-answer');
+        document.querySelector('.answer').classList.add('incorrect-answer');
     }
 
     disableAnswerButtons();
