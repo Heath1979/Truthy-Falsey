@@ -18,7 +18,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #c4c112;
+    background-color: #ff7000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,7 +90,7 @@ nav {
         position: absolute;
         top: 50px;
         right: 0;
-        background-color: #c4c112;
+        background-color:#ff7000;
         width: 100%;
     }
 
@@ -138,7 +138,7 @@ body {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #c4c112;
+    background-color: #ffc89d;
     padding: 10px 15px;
     border-radius: 10px;
     display: block;
@@ -152,7 +152,7 @@ body {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #c4c112;
+    background-color: #ffc89d;
     padding: 10px 15px;
     border-radius: 10px;
     display: block;
@@ -171,7 +171,7 @@ body {
 
 /* Style for the audio button */
 #audio-button {
-    background-color: #ce95c4;
+    background-color: #0383e6;
     border: none;
     color: white;
     padding: 8px 12px;
@@ -184,7 +184,7 @@ body {
 }
 
 #audio-button:hover {
-    background-color: #914b84
+    background-color: #096cb8
 }
 
 
@@ -258,20 +258,20 @@ body {
 }
 
 .answer {
-    background-color: #914b84;
+    background-color: #ffc89d;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin: 10px 0;
     cursor: pointer;
     font-size: 1.1em;
-    color: #fff;
+    color: #000;
     width: 200px;
     text-align: center;
 }
 
 .answer:hover {
-    background-color: #f07cda;
+    background-color: #ff7000;
 }
 
 /* glow effect for answer correct button*/
@@ -287,13 +287,13 @@ body {
 
     0% {
 
-        background-color: #ddaed4;
+        background-color: #ff7000;
 
     }
 
     100% {
 
-        background-color: #914b84;
+        background-color: #ff7000;
 
     }
 
@@ -360,8 +360,8 @@ body {
 
 
 #next {
-    background-color: #f8a573;
-    color: black;
+    background-color: #096cb8;
+    color: white;
     border: none;
     padding: 10px 20px;
     font-size: 1.1em;
