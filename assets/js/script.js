@@ -65,8 +65,10 @@ function checkAnswer(selectedAnswer) {
     if (selectedAnswer === correctAnswer) {
         score++;
         showFeedback("Well Done!", true);
+        document.querySelector('.answer').classList.add('correct-answer');
     } else {
-        showFeedback("Bad Luck! " + correctAnswer, false);
+        showFeedback("Bad Luck!", + correctAnswer, false);
+        document.querySelector('.answer').classList.add('correct-answer');
     }
 
     disableAnswerButtons();
