@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -15,7 +16,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #c4c112 ;
+    background-color: #ff7000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +88,7 @@ nav {
         position: absolute;
         top: 60px;
         right: 0;
-        background-color: #c4c112; 
+        background-color: #ff7000; 
         width: 100%;
     }
     
@@ -112,9 +113,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #a7538f;
-    padding: 60px 10px 10px 10px;
+    background-color: #35a6fd;
+    padding: 80px 10px 10px 10px;
     opacity: 0.9;
+    font-size: 1.2rem;
 }
 
 p {
@@ -138,13 +140,14 @@ li {
 .member a {
     font-size: x-large;
     padding: 0 5px 0 5px;
-    color: #c4c112;
+    color: white;
 }
 
 footer {
-    background-color: #c4c112;
+    background-color: #ff7000;
     color: white;
     margin-top: auto;
+    padding: 1px;
 }
 
 .social-media {
