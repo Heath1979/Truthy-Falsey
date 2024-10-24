@@ -255,6 +255,19 @@ body {
 .answer:hover {
     background-color: #b3a510;
 }
+/* glow effect for answer correct button*/
+.correct-answer {
+    animation: glow 0.5s ease-in-out;
+}
+@keyframes glow {
+    0% {
+        background-color: #83810f;
+    }
+    100% {
+        background-color: #c4c112;
+    }
+}
+
 
 #next {
     background-color: #333;
