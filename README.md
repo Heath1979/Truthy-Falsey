@@ -6,7 +6,7 @@ Truthy or Falsey is a quiz website aimed at young children in and aligned with e
 
 <br>  
   
-![screenshot of landing page](docs/documentation/landing-page.png)
+![screenshot of landing page](docs/documentation/home-new.png)
 
 ---
 
@@ -164,8 +164,8 @@ The website uses a pallette of bright contempory pastels that align with colours
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/navigation-closed.png) 
-![screenshot of navbar](docs/documentation/navigation-open.png) 
+![screenshot of navbar](docs/documentation/new-nav-closed.png) 
+![screenshot of navbar](docs/documentation/new-nav-opn.png) 
 
 </details>
 Navbar opens in mobile view, but displayed in larger screen sizes at the head of the page.
@@ -175,7 +175,7 @@ Navbar opens in mobile view, but displayed in larger screen sizes at the head of
 <details open>  
 <summary></summary>
 
-![screenshot of hero image](docs/documentation/hero.png)  
+![screenshot of hero image](docs/documentation/new-hero.png)  
 </details>
 
 
@@ -185,7 +185,7 @@ Navbar opens in mobile view, but displayed in larger screen sizes at the head of
 <details>
 <summary></summary>
 
-![screenshot of footer](docs/documentation/footer.png)
+![screenshot of footer](docs/documentation/new-footer.png)
 </details>
 The footer contains clickable links to social media sites and is consistent across all screen sizes. These links will only be avaible on the about page as we feel that it is inapprpriate for children to mistakenly click links that direct the user to external sites.
 
@@ -199,7 +199,7 @@ To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the 
   
 ### **View across various screen sizes**  
   
-![screenshots of MHFA website on iphone SE](docs/documentation/)
+![screenshots of Truthy or Falsey website from Ami responsive](docs/documentation/new-responsive.png)
 
 ---  
                               
@@ -251,7 +251,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/documentation/) 
+![screenshot of how to deploy site on github](docs/documentation/deployment-instructions.png) 
 
 ---  
     
@@ -259,7 +259,7 @@ GitHub was used to deploy the website. These were the steps taken to acheive thi
 
 ### **Initial testing plan**
 
-  I had planned for this site to be accessible and legible on all screen sizes. I deployed this site halfway through the project to test on real-world devices. These devices included:  
+  We had planned for this site to be accessible and legible on all screen sizes. This site was deployed halfway through the project to test on real-world devices. These devices included:  
 - MSI laptop 15.6"  
 - iphone SE
 
@@ -288,16 +288,43 @@ The results of feature testing are as follows:
 <details open>
 <summary>Index page HTML validation</summary>  
 
-![screenshot of index page w3c html validation for MHFA](docs/documentation/)
+![screenshot of landing page w3c html validation for Truthy or Falsey](docs/documentation/index-html.png)
+</details>   
+
+<br>  
+
+<details open>
+<summary>Animal page HTML validation</summary>  
+
+![screenshot of animal page w3c html validation for Truthy or Falsey](docs/documentation/animal-html.png)
+</details>   
+
+<br>  
+
+<details open>
+<summary>About page HTML validation</summary>  
+
+![screenshot of About page w3c html validation for Truthy or Falsey](docs/documentation/about-html.png)
 </details>   
 
 <br>  
 
 ### **CSS Validation using W3C Validation** 
-<details open>
-<summary>MHFA CSS validation</summary>  
 
-![screenshot of CSS validation for MHFA](docs/documentation/)
+Issue showing on the style.css sheet. Issue raised with an SME who advised that as long as the code works that was what mattered.
+
+<details open>
+<summary>Truthy or Falsey CSS validation style</summary>  
+
+![screenshot of CSS validation for Truthy or Falsey style](docs/documentation/style-css.png)
+</details>   
+
+<br>  
+
+<details open>
+<summary>Truthy or Falsey CSS validation styleabout</summary>  
+
+![screenshot of CSS validation for Truthy or Falsey styleabout](docs/documentation/styleabout-css-validator.png)
 </details>   
 
 <br>  
@@ -308,7 +335,28 @@ For Desktop
 <details open>
 <summary>Lighthouse audit for Index page</summary>  
 
-![screenshot of lighthouse audit for index page for MHFA](docs/documentation/)
+![screenshot of lighthouse audit for index page for Truthy or Falsey](docs/documentation/index-lighthouse.png)
+</details> 
+
+<details open>
+<summary>Lighthouse audit for Animal page</summary>  
+
+![screenshot of lighthouse audit for animal page for Truthy or Falsey](docs/documentation/animal-lighthouse.png)
+</details> 
+
+<details open>
+<summary>Lighthouse audit for About page</summary>  
+
+![screenshot of lighthouse audit for About page for Truthy or FalseyA](docs/documentation/about-ligthouse.png)
+</details> 
+
+### **JavaScripts errors using JSHint**   
+
+Warning noted in JSHint report. Awaiting clarification on how to clear. All other testing appears to show that the code functions as intended.   
+<details open>
+<summary>JSHint report for JavaScript</summary>  
+
+![screenshot of JSHint report for Truthy or Falsey](docs/documentation/jshint.png)
 </details> 
   
 ### **Bugs & Fixes**  
@@ -325,6 +373,7 @@ For Desktop
 ### **Unsolved Bugs** 
 
 - Use bullet points for unsolved bugs
+- Application of further pages. When attempted there appeared to be a caching issue within the DOM and the relevant quiz failed to action.
 
 ## Credits  
   
@@ -336,6 +385,7 @@ All content written for the website is purely fictional and all questions used f
  - [Freelancing free complete courses](https://www.youtube.com/watch?v=UF1Wk2J0vCE) for refernces on building the quiz page.
  - [Browserstack](https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=Start%20with%20the%20question%20%E2%80%9Chow,will%20adjust%20itself%20in%20accordance) on how to make images responsive.
  - [Stackoverflow](https://stackoverflow.com/questions/70056109/how-to-make-a-speech-bubble-with-css) for how to create a speech bubble.
+ - [Am I responsive](https://ui.dev/amiresponsive) to check responsivity across different screen sizes.
 
 ### **Media References**  
   - [Google fonts](https://fonts.google.com/) for font used on the site.
@@ -345,4 +395,7 @@ All content written for the website is purely fictional and all questions used f
   - [Open Trivia Database](https://opentdb.com/api_config.php) for API used on this website.
 
 ### **Acknowledgements** 
-- Add acknowledgments in bullet points.
+- Credit to the team at the Code Institute, Amy Richardson and Mark Briscoe in particuar, for the help and support offered and provided.
+- Sarah would like to acknowledge her family for supporting her in this busy period.
+- Heath would like to thanks his friends and family for the support and testing of the site.
+- As a team we would like to acknowledge the help and support from each other.
