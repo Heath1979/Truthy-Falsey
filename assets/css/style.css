@@ -121,6 +121,7 @@ body {
     padding-top: 80px;
     background-position: center;
 }
+/* background image for the animal html */
 .bck-image {
     display: flex;
     flex-direction: column;
