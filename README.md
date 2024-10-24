@@ -110,7 +110,7 @@ The site has been developed to be simple, clear, engaging, and familiar
 <details open>
 <summary>Wireframe - Homepage Desktop</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/)
+![homepage wireframe-mobile & desktop](docs/documentation/landing-page-wireframe.png)
 
 </details> 
 
@@ -185,7 +185,7 @@ Navbar opens in mobile view, but displayed in larger screen sizes at the head of
 <details>
 <summary></summary>
 
-![screenshot of footer](docs/documentation/)
+![screenshot of footer](docs/documentation/footer.png)
 </details>
 The footer contains clickable links to social media sites and is consistent across all screen sizes. These links will only be avaible on the about page as we feel that it is inapprpriate for children to mistakenly click links that direct the user to external sites.
 
@@ -197,11 +197,7 @@ The footer contains clickable links to social media sites and is consistent acro
   
 To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the header and navigation elements to ensure that content is aligned. The site is optimised for tablet but still responds across all screen sizes.
   
-### **Mobile View (iPhone SE)**  
-  
-![screenshots of MHFA website on iphone SE](docs/documentation/)
-
-### **laptop view (MSI Modern 15 H B13M)**  
+### **View across various screen sizes**  
   
 ![screenshots of MHFA website on iphone SE](docs/documentation/)
 
@@ -209,7 +205,13 @@ To ensure responsivity we used flexbox in the CSS styling and Bootstrap for the 
                               
 ## Future Features  
 
-- describe future feature in bullet points
+- Addition of more animals on the landing page that would allow the user to access more quizzes.
+- Ability to pause the game.
+- Add a user name.
+- Add a timer.
+- Add a proper contact form in the About page.
+- Change the background on different quiz pages to appear that the user is walking through a woodland.
+- Add education links to further support the content.
   
 ---   
   
@@ -272,9 +274,15 @@ The results of feature testing are as follows:
   
 | Page | Test | Pass/Fail |
 | :----| :----| :--------:|
-| All  | Navigation links bring the user to relevant section of the page | Pass |
-| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
-| All  | Sections are responsive in different media sizes | Pass |
+| All | Navigation links bring the user to relevant section of the page | Pass |
+| All | Footer social media icons bring the user to relevant sites via a new tab | Pass |
+| All | Sections are responsive in different media sizes | Pass |
+| Animal | Question is available on loading | Pass |
+| Animal | True and False buttons respond correctly | Pass |
+| Animal | The character provides feedback to the user | Pass |
+| Home and Animal | Music plays when pressed on the notes button | Pass |
+| Home and Animal | The music will not stop when the button is pressed and the inner HTML disappears | Fail |
+| Animal | User feedback presented once the quiz is over | Pass |
 
 ### **HTML Validation using W3C Validation**  
 <details open>
