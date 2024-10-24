@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,8 @@
 }
 
 /* height and font for body and html */
-html, body {
+html,
+body {
     height: 100%;
     font-family: Manrope, sans-serif;
 }
@@ -16,22 +18,22 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #c4c112 ;
+    background-color: #c4c112;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
     z-index: 1000;
-    color: white; 
+    color: white;
 }
 
 header a {
-    text-decoration: none; 
-    color: white; 
+    text-decoration: none;
+    color: white;
 }
 
 #logo {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
 }
@@ -78,8 +80,8 @@ nav {
         cursor: pointer;
         color: white;
         position: absolute;
-        right: 20px; 
-        top: 10px; 
+        right: 20px;
+        top: 10px;
     }
 
     #menu {
@@ -88,14 +90,14 @@ nav {
         position: absolute;
         top: 50px;
         right: 0;
-        background-color: #c4c112; 
+        background-color: #c4c112;
         width: 100%;
     }
-    
-    #nav-toggle:checked + .nav-toggle-label + nav #menu {
+
+    #nav-toggle:checked+.nav-toggle-label+nav #menu {
         display: flex;
     }
-    
+
     #menu li {
         text-align: center;
         padding: 15px 0;
@@ -115,63 +117,76 @@ body {
     align-items: center;
     background-image: url('../images/Designer (5).jpg');
     background-size: cover center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    background-position: center;
+}
+/* background image for the animal html */
+.bck-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/Designer (15).jpeg');
+    background-size: cover center;
+    background-repeat: no-repeat;
     padding-top: 80px;
     background-position: center;
 }
 
 .heading-container {
-    margin-top: 50px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #c4c112;
-    padding: 10px 15px; 
-    border-radius: 10px; 
-    display: block; 
-    margin-bottom: 30px; 
-    max-width: 80%; 
-    text-align: center; 
-    font-size: 1em; 
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 30px;
+    max-width: 80%;
+    text-align: center;
+    font-size: 1em;
 }
 
 .heading-container1 {
-    margin-top: 50px; 
-    margin-left: auto; 
-    margin-right: auto; 
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #c4c112;
-    padding: 10px 15px; 
-    border-radius: 10px; 
-    display: block; 
-    margin-bottom: 30px; 
-    max-width: 80%; 
-    text-align: center; 
-    font-size: 1em;    
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 30px;
+    max-width: 80%;
+    text-align: center;
+    font-size: 1em;
 }
 
 /* audio styling */
 .audio-container {
-    display: flex;                
-    justify-content: center;     
-    margin-top: 10px;           
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 /* Style for the audio button */
 #audio-button {
-    background-color: #ce95c4; 
+    background-color: #ce95c4;
     border: none;
     color: white;
     padding: 8px 12px;
     text-align: center;
     text-decoration: none;
-    font-size: 14px; 
+    font-size: 14px;
     cursor: pointer;
-    border-radius: 15px; 
+    border-radius: 15px;
     transition: background-color 0.3s;
 }
 
 #audio-button:hover {
     background-color: #914b84
 }
+
 
 /* make image stay central */
 .image-container {
@@ -202,12 +217,15 @@ body {
 .speech-bubb::after {
     content: '';
     position: absolute;
-    bottom: -20px; /* Position below the speech bubble */
-    left: 50%; /* Centered horizontally */
+    bottom: -20px;
+    /* Position below the speech bubble */
+    left: 50%;
+    /* Centered horizontally */
     transform: translateX(-50%);
     border-width: 10px;
     border-style: solid;
-    border-color: #ffffff transparent transparent transparent; /* Triangle pointing up */
+    border-color: #ffffff transparent transparent transparent;
+    /* Triangle pointing up */
 }
 
 .resp-image {
@@ -218,7 +236,7 @@ body {
 @media (min-width: 768px) {
     .resp-image {
         max-width: 50%;
-    }    
+    }
 }
 
 /* quiz page css */
@@ -240,25 +258,110 @@ body {
 }
 
 .answer {
-    background-color: #c4c112;
+    background-color: #914b84;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin: 10px 0;
     cursor: pointer;
     font-size: 1.1em;
-    color: rgb(0, 0, 0);
+    color: #fff;
     width: 200px;
     text-align: center;
 }
 
 .answer:hover {
-    background-color: #b3a510;
+    background-color: #f07cda;
 }
 
+/* glow effect for answer correct button*/
+.correct-answer {
+
+    animation: glow 0.5s ease-in-out;
+
+}
+
+
+
+@keyframes glow {
+
+    0% {
+
+        background-color: #ddaed4;
+
+    }
+
+    100% {
+
+        background-color: #914b84;
+
+    }
+
+}
+
+
+
+.incorrect-answer {
+
+    animation: shake 0.5s;
+
+}
+
+
+
+@keyframes shake {
+
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+
+}
+
+
+
 #next {
-    background-color: #333;
-    color: white;
+    background-color: #f8a573;
+    color: black;
     border: none;
     padding: 10px 20px;
     font-size: 1.1em;
@@ -268,7 +371,7 @@ body {
 }
 
 #next:hover {
-    background-color: #555;
+    background-color: #f1c9af;
 }
 
 /* Feedback and speech bubble */
@@ -299,6 +402,8 @@ body {
     background-color: #f44336;
     color: white;
 }
+
+
 
 .speaker-img {
     max-width: 150px;

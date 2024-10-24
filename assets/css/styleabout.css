@@ -114,7 +114,11 @@ main {
     align-items: center;
     background-color: #a7538f;
     padding: 60px 10px 10px 10px;
+<<<<<<< HEAD
     opacity: 0.9;
+=======
+    opacity: 0.9
+>>>>>>> main
 }
 
 li {
