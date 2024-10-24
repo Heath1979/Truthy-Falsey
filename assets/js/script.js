@@ -13,7 +13,7 @@ document.getElementById('audio-button').addEventListener('click', () => {
         audio.pause(); 
         audio.currentTime = 0; 
         isPlaying = false;
-        document.getElementById('audio-button').textContent = ""; 
+        document.getElementById('audio-button').textContent = "Resume"; 
     } else {
         audio.play(); 
         isPlaying = true;
